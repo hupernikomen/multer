@@ -3,6 +3,8 @@ import { View, Text, TouchableOpacity } from 'react-native';
 
 import api from './service/api';
 
+
+
 export default function App() {
 
 
