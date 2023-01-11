@@ -3,7 +3,7 @@ import { Request, Response } from 'express'
 import { EnviaFotoService } from '../services/EnviaFotoService'
 
 class EnviaFotoController {
-    async handle(res: Response, req: Request) {
+    async handle(req: Request, res: Response) {
         const enviaFotoService = new EnviaFotoService()
 
         if (!req.file) {
